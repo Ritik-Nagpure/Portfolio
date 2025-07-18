@@ -1,8 +1,6 @@
-import React from "react";
-import "./Introduction.css";
 import dp from "/dp.jpg";
 
-function introduction() {
+function Introduction() {
   return (
     <>
       <div className="mx-auto lg:w-3/5 my-auto sm:m-6">
@@ -21,4 +19,4 @@ function introduction() {
   );
 }
 
-export default introduction;
+export default Introduction;

@@ -1,9 +1,10 @@
-import './App.css'
-import Home from './Home/Home'
+import Layout from './Classic/Layout/Layout';
 
 function App() {
   return (
-    <Home />
+    <div className="flex flex-col h-screen justify-center items-center bg-gray-900">
+      <Layout />
+    </div>
   )
 }
 

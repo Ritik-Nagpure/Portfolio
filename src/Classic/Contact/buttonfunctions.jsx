@@ -1,4 +1,4 @@
-import cv from '/resume/Ritik Nagpure.pdf'
+import cv from '../../assets/Ritik_Nagpure.pdf'
 
 export const openPdfInNewTab = () => {
     window.open(cv, '_blank');
