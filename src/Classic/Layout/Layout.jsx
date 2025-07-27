@@ -6,7 +6,7 @@ import Newint from "../Introduction/Newint"
 const Layout = () => {
     return (
         <div className="flex flex-col min-h-screen text-white w-full">
-            <div>
+            <div >
                 <Header />
             </div>
             <div>
@@ -15,7 +15,7 @@ const Layout = () => {
             <div>
                 {/* <Display /> */}
             </div>
-            <div>
+            <div className="">
                 <Footer />
             </div>
 
