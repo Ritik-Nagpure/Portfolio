@@ -8,7 +8,7 @@ import Contact from './Sections/Contact';
 const App = () => {
     return (
         <div className=' flex flex-col gap-y-30 g-gradient-to-br from-gray-900 via-gray-800 to-black w-full'>
-            <div className=''>
+            <div className='p-4 m-4'>
                 <Banner />
             </div>
             <div className='p-4 m-4'><Introduction /></div>

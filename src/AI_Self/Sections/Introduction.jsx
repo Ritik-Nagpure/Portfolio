@@ -16,13 +16,13 @@ const Introduction = () => {
                 </p>
                 <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
                     <a
-                        href="#projects"
+                        href=""
                         className="px-6 py-3 hover:text-xl bg-white text-gray-900 font-semibold rounded-full shadow hover:bg-gray-300 transition-all"
                     >
                         Explore Projects
                     </a>
                     <p
-                        href="#contact"
+                        href=""
                         className="px-6 py-3 hover:text-xl bg-white text-gray-900 font-semibold rounded-full shadow hover:bg-gray-300 transition-all"
 
                    >

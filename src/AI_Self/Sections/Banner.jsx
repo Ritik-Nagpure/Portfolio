@@ -25,7 +25,7 @@ const Banner = () => (
                     A visionary MERN stack developer who believes tech should inspire, not just function. I build digital experiences that elevate ideas and empower people—fueled by curiosity, innovation, and bold creativity.
                 </p>
                 <a
-                    href="#contact"
+                    href=""
                     className="inline-block m-2 px-4 py-2 text-black text-lg font-semibold rounded-full bg-white hover:bg-gray-300 hover:text-xl transition-all"
                 >
                     Let’s Connect
