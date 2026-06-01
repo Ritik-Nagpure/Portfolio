@@ -1,4 +1,5 @@
 import Home from './AI_Self/Home'
+import Folio from './Claude copy/Folio';
 
 (() => {
   const link = 'https://sarvum.onrender.com/api/codegears/todos';
@@ -25,7 +26,8 @@ import Home from './AI_Self/Home'
 function App() {
   return (
     <div className="flex flex-col justify-center items-center bg-gray-900">
-      <Home />
+      {/* <Home /> */}
+      <Folio />
     </div>
   )
 }
