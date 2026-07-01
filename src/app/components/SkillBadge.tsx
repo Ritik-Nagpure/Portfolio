@@ -4,13 +4,13 @@ import { LucideIcon } from 'lucide-react';
 interface SkillBadgeProps {
   name: string;
   icon: LucideIcon;
-  level?: 'Beginner' | 'Intermediate' | 'Advanced';
+  level?: 'Entrant' | 'Intermediate' | 'Advanced';
   index: number;
 }
 
 export function SkillBadge({ name, icon: Icon, level, index }: SkillBadgeProps) {
   const levelColors = {
-    Beginner: 'text-yellow-400',
+    Entrant: 'text-yellow-400',
     Intermediate: 'text-fuchsia-400',
     Advanced: 'text-green-400',
   };

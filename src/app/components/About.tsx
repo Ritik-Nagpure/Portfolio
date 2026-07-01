@@ -19,7 +19,7 @@ export function About() {
           subtitle="Passionate about creating seamless user experiences and scalable systems"
         />
 
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Description */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -30,24 +30,20 @@ export function About() {
           >
             <div className="relative pl-6 border-l-2 border-[#6cd56c]/35">
               <p className="text-gray-300 leading-relaxed">
-                I'm a full-stack developer with a passion for building beautiful, performant web applications. 
-                My journey in tech started 5 years ago, and since then, I've had the privilege of working at 
-                startups and enterprise companies.
+                I'm a Full Stack Engineer with 5 years of experience building enterprise web applications and automation solutions. I specialize in React.js, Next.js, TypeScript, Node.js, Express.js, PostgreSQL, and AWS, with experience delivering secure, scalable, and high-performance software for global enterprise clients.
               </p>
+
             </div>
-            
+
             <div className="relative pl-6 border-l-2 border-fuchsia-400/35">
               <p className="text-gray-300 leading-relaxed">
-                I specialize in modern JavaScript frameworks and have a strong foundation in both frontend 
-                and backend technologies. When I'm not coding, you'll find me contributing to open source, 
-                writing technical articles, or exploring new technologies.
+                Over the years, I've worked across the entire software development lifecycle—from designing responsive user interfaces and developing RESTful APIs to deploying cloud-based applications and optimizing production systems. My experience spans enterprise compliance platforms, workflow automation, application monitoring, and business process optimization.
               </p>
             </div>
 
             <div className="relative pl-6 border-l-2 border-violet-400/35">
               <p className="text-gray-300 leading-relaxed">
-                Currently, I'm focused on building accessible, inclusive products and mentoring junior developers 
-                to help them grow in their careers.
+                Outside of my professional work, I enjoy building products that solve real-world problems. I'm currently developing Zenviv, a modular health and wellness platform where I explore modern full-stack architecture, scalable system design, authentication, and cloud technologies while continuously expanding my skills in software engineering.
               </p>
             </div>
           </motion.div>
